@@ -5,15 +5,11 @@ describe('Manager Test', () => {
     const newManager = new Manager(data);
 
 
-//     describe("Initialization", () => {
-//         it("should return an object containing the properties 'name', 'id', 'email', 'role' when called with the 'new' keyword", () => {
-//             expect("name" in employeeObject).toEqual(true);
-//             expect("id" in employeeObject).toEqual(true);
-//             expect("email" in employeeObject).toEqual(true);
-//             // expect("role" in employeeObject).toEqual(true);
-
-//         });
-//   });
+    describe("Initialization", () => {
+        it("should return an object containing the property 'officeNumber' when called with the 'new' keyword", () => {
+            expect("officeNumber" in newManager).toEqual(true);
+        });
+  });
 
 describe("getName", () => {
     it("should return the Manager name", () => {

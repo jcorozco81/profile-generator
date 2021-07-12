@@ -3,15 +3,13 @@ const Employee = require('../lib/Employee');
 describe('employeeTest', () => {
     const data = {name: 'myname', id: '123456', email: 'myemail@email.com'};
     const employeeName = new Employee(data);
-//     describe("Initialization", () => {
-//         it("should return an object containing the properties 'name', 'id', 'email', 'role' when called with the 'new' keyword", () => {
-//             expect("name" in employeeObject).toEqual(true);
-//             expect("id" in employeeObject).toEqual(true);
-//             expect("email" in employeeObject).toEqual(true);
-//             // expect("role" in employeeObject).toEqual(true);
-
-//         });
-//   });
+    describe("Initialization", () => {
+        it("should return an object containing the properties 'name', 'id' and 'email' when called with the 'new' keyword", () => {
+            expect("name" in employeeName).toEqual(true);
+            expect("id" in employeeName).toEqual(true);
+            expect("email" in employeeName).toEqual(true);
+        });
+  });
 
   describe("getName", () => {
     it("should return the employee name", () => {

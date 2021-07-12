@@ -3,19 +3,12 @@ const Engineer = require('../lib/Engineer');
 describe('Engineer Test', () => {
     const data = {name: 'myname', id: '123456', email: 'myemail@email.com', github: 'mygithub'};
     const newEngineer = new Engineer(data);
-//     describe("Initialization", () => {
-//         it("should return an object containing the properties 'name', 'id', 'email', 'role' when called with the 'new' keyword", () => {
-
-//             const data = {name: 'myname', id: '123456', email: 'myemail@email.com', role: 'myrole'};
-//             const employeeObject = new Employee(data);
-
-//             expect("name" in employeeObject).toEqual(true);
-//             expect("id" in employeeObject).toEqual(true);
-//             expect("email" in employeeObject).toEqual(true);
-//             // expect("role" in employeeObject).toEqual(true);
-
-//         });
-//   });
+    
+    describe("Initialization", () => {
+        it("should return an object containing the property 'github' when called with the 'new' keyword", () => {
+            expect("github" in newEngineer).toEqual(true);
+        });
+    });
 
 describe("getName", () => {
     it("should return the Engineer name", () => {
