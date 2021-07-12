@@ -13,25 +13,25 @@ describe('Manager Test', () => {
 
 describe("getName", () => {
     it("should return the Manager name", () => {
-        expect(newManager.getName()).toEqual('myname');
+        expect(newManager.getName()).toEqual('Employee Name: myname');
     });
 });
 
 describe("getID", () => {
     it("should return the Manager ID", () => {
-        expect(newManager.getId()).toEqual('123456');
+        expect(newManager.getId()).toEqual('Employee ID: 123456');
     });
 });
 
 describe("getEmail", () => {
     it("should return the Manager Email", () => {
-        expect(newManager.getEmail()).toEqual('myemail@email.com');
+        expect(newManager.getEmail()).toEqual('Employee Email: myemail@email.com');
     });
 });
 
 describe("getofficeNumber", () => {
     it("should return the Manager Office", () => {
-        expect(newManager.getofficeNumber()).toEqual('1A');
+        expect(newManager.getofficeNumber()).toEqual('Office: 1A');
     });
 });
 

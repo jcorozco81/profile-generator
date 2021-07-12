@@ -12,25 +12,25 @@ describe('Engineer Test', () => {
 
 describe("getName", () => {
     it("should return the Engineer name", () => {
-        expect(newEngineer.getName()).toEqual('myname');
+        expect(newEngineer.getName()).toEqual('Employee Name: myname');
     });
 });
 
 describe("getID", () => {
     it("should return the Engineer ID", () => {
-        expect(newEngineer.getId()).toEqual('123456');
+        expect(newEngineer.getId()).toEqual('Employee ID: 123456');
     });
 });
 
 describe("getEmail", () => {
     it("should return the Engineer Email", () => {
-        expect(newEngineer.getEmail()).toEqual('myemail@email.com');
+        expect(newEngineer.getEmail()).toEqual('Employee Email: myemail@email.com');
     });
 });
 
 describe("getSchool", () => {
     it("should return the Engineer GitHub username", () => {
-        expect(newEngineer.getGithub()).toEqual('mygithub');
+        expect(newEngineer.getGithub()).toEqual('Github: mygithub');
     });
 });
 

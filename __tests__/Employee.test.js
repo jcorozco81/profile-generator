@@ -13,19 +13,19 @@ describe('employeeTest', () => {
 
   describe("getName", () => {
     it("should return the employee name", () => {
-        expect(employeeName.getName()).toEqual('myname');
+        expect(employeeName.getName()).toEqual('Employee Name: myname');
     });
 });
 
 describe("getID", () => {
     it("should return the employee ID", () => {
-        expect(employeeName.getId()).toEqual('123456');
+        expect(employeeName.getId()).toEqual('Employee ID: 123456');
     });
 });
 
 describe("getEmail", () => {
     it("should return a Employee name", () => {
-        expect(employeeName.getEmail()).toEqual('myemail@email.com');
+        expect(employeeName.getEmail()).toEqual('Employee Email: myemail@email.com');
     });
 });
 

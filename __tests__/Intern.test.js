@@ -12,25 +12,25 @@ describe('Intern Test', () => {
 
 describe("getName", () => {
     it("should return the Intern name", () => {
-        expect(newIntern.getName()).toEqual('myname');
+        expect(newIntern.getName()).toEqual('Employee Name: myname');
     });
 });
 
 describe("getID", () => {
     it("should return the Intern ID", () => {
-        expect(newIntern.getId()).toEqual('123456');
+        expect(newIntern.getId()).toEqual('Employee ID: 123456');
     });
 });
 
 describe("getEmail", () => {
     it("should return the Intern Email", () => {
-        expect(newIntern.getEmail()).toEqual('myemail@email.com');
+        expect(newIntern.getEmail()).toEqual('Employee Email: myemail@email.com');
     });
 });
 
 describe("getSchool", () => {
     it("should return the Intern school", () => {
-        expect(newIntern.getSchool()).toEqual('myschool');
+        expect(newIntern.getSchool()).toEqual('School: myschool');
     });
 });
 
