@@ -68,7 +68,7 @@ Additional packages required: [Inquirer package](https://www.npmjs.com/package/i
 ***
   Four **Test Suites** were created for this project: ```Employee.test.js```, ```Engineer.test.js```, ```Intern.test.js```, and ```Manager.test.js```. These **Test Suites** will be used to test the library script files outputs and initialization.
 
-1. To install Jest and add it to the list of dependencies by running ```npm install --save-dev jest```. Refer to [Jest Documentation](https://jestjs.io/docs/getting-started) for more information.
+1. Install Jest and add it to the list of dependencies by running ```npm install --save-dev jest```. Refer to [Jest Documentation](https://jestjs.io/docs/getting-started) for more information.
 
 2. Execute the command ```npm run test```.
 
