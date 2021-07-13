@@ -90,7 +90,7 @@ const questions = [
               const newTeamMember = new Manager(data);
               newTeamMember.role = newTeamMember.getRole();
               newTeamMember.specific=newTeamMember.getofficeNumber();
-              console.log(`New Team Member created ${newTeamMember.role}`);
+              console.log(`New Team Member created: ${newTeamMember.role}`);
               createCard(newTeamMember);
               proceedQuestion();
             });
@@ -104,7 +104,7 @@ const questions = [
               const newTeamMember = new Engineer(data);
               newTeamMember.role = newTeamMember.getRole();
               newTeamMember.specific=newTeamMember.getGithub();
-              console.log(`New Team Member created ${newTeamMember.role}`);
+              console.log(`New Team Member created: ${newTeamMember.role}`);
               createCard(newTeamMember);
               proceedQuestion();
             });
@@ -118,7 +118,7 @@ const questions = [
               const newTeamMember = new Intern(data);
               newTeamMember.role = newTeamMember.getRole();
               newTeamMember.specific=newTeamMember.getSchool();
-              console.log(`New Team Member created ${newTeamMember.role}`);
+              console.log(`New Team Member created: ${newTeamMember.role}`);
               createCard(newTeamMember);
               proceedQuestion();
             });
@@ -218,7 +218,7 @@ function createCard(newTeamMember){
   // cardArray.push(newCard);
   // console.log(cardArray);
   cardString= cardString.concat(newCard);
-    console.log(`Card String ${cardString}`);
+    // console.log(`Card String ${cardString}`);
 
 }
 
